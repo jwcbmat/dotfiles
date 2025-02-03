@@ -1,5 +1,8 @@
 return {
   {
-    "LazyVim/LazyVim",
+    "navarasu/onedark.nvim",
+    config = function()
+      vim.cmd("colorscheme onedark")
+    end,
   },
 }
