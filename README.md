@@ -1,4 +1,4 @@
 - terminal: iterm2
 - ide: neovim (lazyvim setup)
 - font style: jet brains mono nerd font
-- shell: fish (working with starship shell)
+- shell: zsh (starship, oh-my-zsh)
