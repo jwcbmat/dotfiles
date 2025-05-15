@@ -1,3 +1,4 @@
+# ohmyshell
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="robbyrussell"
@@ -9,3 +10,14 @@ source $ZSH/oh-my-zsh.sh
 
 # starship init
 eval "$(starship init zsh)"
+
+# nvm env
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 
+
+
+# personal alias
+alias nconfig="nvim ~/.config/nvim"
+alias c="clear"
+alias nn="nvim ."
