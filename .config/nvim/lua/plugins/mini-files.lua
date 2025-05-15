@@ -3,6 +3,7 @@ return {
   opts = {
     use_as_default_explorer = true,
   },
+  version = "*",
   keys = {
     {
       "<leader>o",
