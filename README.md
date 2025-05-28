@@ -2,3 +2,4 @@
 - ide: neovim (lazyvim setup)
 - font style: jet brains mono nerd font
 - shell: zsh (starship, oh-my-zsh)
+- OS: macos
